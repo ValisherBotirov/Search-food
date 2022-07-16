@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.search__section {
+  flex-direction: column;
+  max-width: 100%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 70px;
+}
+.title {
+  font-size: 44px;
+  color: #333;
+}
+.text {
+  color: #333;
+  align-items: center;
+  font-size: 24px;
+}
+.search--div {
+  display: flex;
+}
+.search--input {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50px 0 0 50px;
+  font-size: 18px;
+  width: 450px;
+  border: 1px solid rgb(246, 149, 12);
+}
+.search--input::placeholder {
+  color: rgb(246, 149, 12);
+}
+.search--icon {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0 50px 50px 0px;
+  background-color: rgb(246, 149, 12);
+  width: 30px;
+}
+.search--result {
+  color: #333;
+  font-size: 42px;
+}
+.heading--tr {
+  color: rgb(246, 149, 12);
+  font-size: 32px;
+  display: none;
+}
+
+.section__result {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 5px;
+}
+.box {
+  text-align: center;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.586);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 20px;
+}
+.food--img {
+  height: 350px;
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+.heading--four {
+  font-size: 32px;
+  color: #333;
+}
+.btn--recipe {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(246, 149, 12);
+  border: 2px solid rgb(246, 149, 12);
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+.btn--recipe:hover {
+  color: rgb(246, 149, 12);
+  background-color: #fff;
+}
+.popup--name {
+  color: #fff;
+}
+.popup {
+  overflow: scroll;
+  text-align: center;
+  font-size: 24px;
+  position: fixed;
+  top: 10%;
+  left: 17%;
+
+  width: 60%;
+  max-height: 80vh;
+  margin: 0 auto;
+  background-color: rgb(246, 149, 12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px 30px;
+  gap: 20px;
+  display: none;
+}
+.popup::-webkit-scrollbar {
+  width: 10px;
+  color: #333;
+}
+
+.popup::-webkit-scrollbar-track {
+  display: none;
+  width: 0px;
+}
+
+.popup::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  outline: 1px solid rgb(255, 255, 255);
+}
+.popup--img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.close {
+  position: absolute;
+  top: 1%;
+  left: 96%;
+  color: #333;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 8px 10px;
+}
+.popup--btn {
+  background-color: #fff;
+  color: rgb(246, 149, 12);
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.youtubeLink {
+  color: #fff;
+}
